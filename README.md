@@ -2,6 +2,8 @@
 
 ## Description
 
+This team profile generator allows the user to create employee profile based on their role.
+
 ## Screenshots
 
 ## License
