@@ -1,9 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const employee = require('./lib/employee')
-const engineer = require('./lib/engineer')
-const intern = require('./lib/intern');
-const manager = require('./lib/manager')
+const Employee = require('./lib/Employee')
+const Engineer = require('./lib/Engineer')
+const Intern = require('./lib/Intern');
+const Manager = require('./lib/Manager')
 
 const generateTeam = () => {
     return inquirer.prompt([])};
