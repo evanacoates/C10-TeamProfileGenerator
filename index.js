@@ -7,7 +7,7 @@ const Manager = require('./lib/Manager')
 
 const generatedTeam = [];
 
-const teamGenerator = () => {
+const generateTeam = () => {
     return inquirer.prompt([
         {
             type: 'input',
@@ -30,5 +30,7 @@ const teamGenerator = () => {
             message: 'What is your office number?',
         },
     ]);
+
+    generateTeam();
 
 
