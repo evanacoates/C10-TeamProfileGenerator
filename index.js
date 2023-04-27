@@ -32,7 +32,7 @@ const generateTeam = () => {
         },
     ]).then(answers => {
     const newEmployee = new Employee(answers.name, answers.employeeId, answers.email, answers.officeNumber);
-    team.push(newEmployee)
+    generatedTeam.push(newEmployee)
 })};
 
     
